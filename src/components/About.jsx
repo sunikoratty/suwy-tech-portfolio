@@ -42,10 +42,14 @@ const About = () => {
               </div>
             </div>
             <div className="history-item">
-              <Users className="text-cyan" size={24} style={{color: 'var(--accent-cyan)'}}/>
+              <Users className="text-cyan" size={24} style={{color: 'var(--accent-cyan)', flexShrink: 0}}/>
               <div>
-                <h4>Key Leadership</h4>
-                <p>SUNI SURENDRAN & ALLWYN ANTO</p>
+                <h4 style={{ whiteSpace: 'nowrap' }}>Key Leadership</h4>
+                <div style={{ margin: '0.5rem 0' }}>
+                  <p style={{ marginBottom: 0 }}>SUNI SURENDRAN</p>
+                  <p style={{ textAlign: 'center', margin: '2px 0', color: 'var(--accent-cyan)', fontWeight: 'bold' }}>&</p>
+                  <p style={{ marginBottom: 0 }}>ALLWYN ANTO</p>
+                </div>
                 <span className="experience-badge">7+ Years Experience</span>
               </div>
             </div>

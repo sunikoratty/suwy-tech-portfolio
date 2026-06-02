@@ -12,11 +12,11 @@ const Hero = () => {
             <span>Innovating the Future of Tech</span>
           </div>
           <h1 className="hero-title">
-            Transforming Ideas into <br/>
+            Transforming Ideas into <br className="desktop-only"/>
             <span className="gradient-text">Digital Reality</span>
           </h1>
           <p className="hero-subtitle">
-            Leading Software Development, Training & Consultancy. <br/>
+            Software Development, Training & Consultancy. <br className="desktop-only"/>
             On a mission to make India the ultimate AI Hub.
           </p>
           <div className="hero-cta">

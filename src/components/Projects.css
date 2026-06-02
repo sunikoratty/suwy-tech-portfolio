@@ -1,0 +1,80 @@
+.projects-section {
+  position: relative;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 1rem;
+}
+
+.products-showcase, .clients-showcase {
+  padding: 3rem;
+  height: 100%;
+}
+
+.product-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.product-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateX(10px);
+  border-color: rgba(0, 210, 255, 0.2);
+}
+
+.product-icon-container {
+  width: 60px;
+  height: 60px;
+  background: rgba(0, 210, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.product-info h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.product-info p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.clients-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.client-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(13, 27, 42, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.client-card:hover {
+  background: rgba(13, 27, 42, 0.8);
+  transform: translateX(-10px);
+  border-color: rgba(0, 119, 182, 0.4);
+  box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
+}

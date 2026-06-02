@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</a>
           <a href="#services" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
           <a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</a>
-          <a href="#clients" onClick={() => setIsMobileMenuOpen(false)}>Clients</a>
+          <a href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Clients</a>
         </div>
 
         <button 

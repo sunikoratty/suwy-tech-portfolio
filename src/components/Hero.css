@@ -120,6 +120,7 @@
   font-family: 'Consolas', monospace;
   font-size: 1rem;
   line-height: 1.6;
+  overflow-x: auto;
 }
 
 @media (max-width: 968px) {
@@ -138,9 +139,11 @@
   
   .hero-cta {
     justify-content: center;
+    flex-wrap: wrap;
   }
   
   .hero-card {
     transform: none;
+    max-width: 100vw;
   }
 }
